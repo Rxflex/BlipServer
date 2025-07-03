@@ -2,7 +2,6 @@ pycache/
 *.py[cod]
 *$py.class
 .venv
-checkpoints
 images
 
 

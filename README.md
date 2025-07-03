@@ -20,6 +20,12 @@
 
 ## **Setup/Installation**
 - I assume that you have docker installed and a CUDA capable GPU
+- You can use the prebuilt image from GHCR:
+
+```
+docker run --gpus all -p 5000:5000 ghcr.io/rxflex/blipserver:latest
+```
+
 - I suggest that you run everything locally first to verify that every thing works as the docker image build can take quite long
 - After running it locally for the first time, there should be a /checkpoints folder with the BLIP model
     - So the docker container can copy it and doesnt need to download it again
